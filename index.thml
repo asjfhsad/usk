@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcomo to 유정이 Talk</title>
+</head>
+<body>
+    <div id="status-bar">
+<div class="status-bar__columm"></div>
+<span>No Service</span>
+<!-- TO Do: Wifi Icon-->
+<div class="status-bar__columm"></div>
+<span>18:43</span>
+<div class="status-bar__columm"></div>
+<span>110%</span>
+<!--배터리아이콘-->
+<!--충전중아이콘-->
+    </div>
+</body>
+</html>
