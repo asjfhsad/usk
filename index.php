@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-site-verification" content="0THHcnmBUBAyaZGtiC3EeL23kQEgprY8pE63tCnlliA" />
+    <meta name="google-site-verification" content="41KKmVVkZEYdAStbOuRUMJtd51zfg5TfkKVtBIZB6U0" />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4584919169448418"
+     crossorigin="anonymous"></script>
     <title>공부할때쓰는 간단한 타이머-타이머-온라인 타이머-Timr - Study Timer.kr</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
