@@ -1,45 +1,89 @@
-body{
-    margin: 0%;
-    padding: 0%;
-    background: linear-gradient(to right, #41423d, #50c024);
-    overflow: hidden;
+body {
+  background: url(https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fc1R3OE%2FbtqFyqEpgB2%2FOzwwNy8a9HvE4k8JgKUT0k%2Fimg.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
 }
-.container{
-    margin: 50px auto;
-    text-align: center;
+h1 {
+  font-size: 4em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffff;
+  text-align: center;
 }
-h1{
-    font-size: 4em;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #ffff;
+.설명 {
+  text-align: center;
+  color: #ffff;
+  font-size: 1em;
 }
-#time{
-    font-size: 5em;
-    color: #ffff;
+#이론 {
+  text-align: center;
+  color: #ffff;
+  font-size: 1em;
 }
-button{
-    border: none;
-    padding: 18px 10px;
-    font-size: 1.5em;
-    width: 180px;
-    margin: 10px;
-    border-radius: 15px;
-    color: #AA076B;
-    font-weight: bold;
+
+#container {
+  border: 1px solid #333;
+  border-radius: 20px;
+  width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  background: #333;
 }
-button:hover{
-    cursor: pointer;
-    background-color: transparent;
-    color: #ffff;
-    transition: 0.4s;
-    border: none;
+
+#timer {
+  color: #f00;
+  font-size: 50px;
+  margin: 10px auto;
+  border: 5px solid red;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
 }
-#second{
-    font-size: 8em;
+
+#time {
+  margin-top: 70px;
+  z-index: 1;
+  position: relative;
 }
-#tens{
-    font-size: 8em;
+
+#filler {
+  background: #ddffcc;
+  height: 0px;
+  width: 200px;
+  position: absolute;
+  bottom: 0;
 }
-#do{
-    font-size: 8em;
+
+#buttons button {
+  background: #4da6ff;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 5px;
+  width: 90px;
+  margin: 10px auto;
+  font-size: 14px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+#buttons button#shortBreak {
+  background: #4da6ff;
+}
+
+#buttons button#longBreak {
+  background: #4da6ff;
+}
+
+#buttons button#stop {
+  background: #f00;
 }
